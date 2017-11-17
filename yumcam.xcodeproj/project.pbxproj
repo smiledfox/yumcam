@@ -1,0 +1,84 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		45109D721FBE894800922176 /* yumcam.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = yumcam.py; path = src/yumcam.py; sourceTree = "<group>"; };
+		45109D731FBE894900922176 /* boot.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = boot.py; path = src/boot.py; sourceTree = "<group>"; };
+		45109D741FBE894900922176 /* yumcam_report.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = yumcam_report.py; path = src/yumcam_report.py; sourceTree = "<group>"; };
+		45109D751FBE894900922176 /* gl.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = gl.py; path = src/gl.py; sourceTree = "<group>"; };
+		45109D761FBE894900922176 /* yumcam_aliyun_upload.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = yumcam_aliyun_upload.py; path = src/yumcam_aliyun_upload.py; sourceTree = "<group>"; };
+		45109D771FBE894900922176 /* yumcam_compress.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = yumcam_compress.py; path = src/yumcam_compress.py; sourceTree = "<group>"; };
+		45109D781FBE894900922176 /* yumcam_network.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = yumcam_network.py; path = src/yumcam_network.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		45109D6B1FBE890E00922176 = {
+			isa = PBXGroup;
+			children = (
+				45109D731FBE894900922176 /* boot.py */,
+				45109D751FBE894900922176 /* gl.py */,
+				45109D761FBE894900922176 /* yumcam_aliyun_upload.py */,
+				45109D771FBE894900922176 /* yumcam_compress.py */,
+				45109D781FBE894900922176 /* yumcam_network.py */,
+				45109D741FBE894900922176 /* yumcam_report.py */,
+				45109D721FBE894800922176 /* yumcam.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		45109D6C1FBE890E00922176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = 45109D6F1FBE890E00922176 /* Build configuration list for PBXProject "yumcam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45109D6B1FBE890E00922176;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		45109D701FBE890E00922176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		45109D711FBE890E00922176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45109D6F1FBE890E00922176 /* Build configuration list for PBXProject "yumcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45109D701FBE890E00922176 /* Debug */,
+				45109D711FBE890E00922176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45109D6C1FBE890E00922176 /* Project object */;
+}
